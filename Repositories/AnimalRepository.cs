@@ -13,19 +13,21 @@ namespace AnimalApiCSharp.Repositories
       _context = context;
     }
 
-    public async Task<IEnumerable<Animal>> GetAnimals()
+    public async Task<IEnumerable<Animal>> GetAnimals(int pageIndex, int pageSize)
     {
-      return await _context.Animals.ToListAsync();
+      return await _context.Animals.Skip((pageIndex - 1) * pageSize)
+                                   .Take(pageSize)
+                                   .ToListAsync();
     }
 
     public async Task<Animal> GetAnimalById(Guid id)
     {
-      return await _context.Animals.Where(x => x.Id == id).FirstOrDefaultAsync();
+      return await _context.Animals.FirstOrDefaultAsync(x => x.Id == id);
     }
 
     public async Task<Animal> GetAnimalByName(string commonName)
     {
-      return await _context.Animals.Where(x => x.CommonName.ToLower() == commonName.ToLower()).FirstOrDefaultAsync();
+      return await _context.Animals.FirstOrDefaultAsync(x => x.CommonName.ToLower() == commonName.ToLower());
     }
 
     public void AddAnimal(Animal animal)

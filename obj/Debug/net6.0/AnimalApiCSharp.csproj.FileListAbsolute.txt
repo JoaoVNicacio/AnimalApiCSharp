@@ -1,0 +1,104 @@
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\appsettings.json
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.exe
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.deps.json
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.runtimeconfig.json
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.pdb
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.csproj.AssemblyReference.cache
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.AssemblyInfoInputs.cache
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.AssemblyInfo.cs
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.csproj.CoreCompileInputs.cache
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\scopedcss\bundle\AnimalApiCSharp.styles.css
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.csproj.CopyComplete
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\refint\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.pdb
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.genruntimeconfig.cache
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\obj\Debug\net6.0\ref\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Npgsql.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\joao.amorim\Desktop\AnimalApiCSharp\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\appsettings.json
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.exe
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.deps.json
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.runtimeconfig.json
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\AnimalApiCSharp.pdb
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Npgsql.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.csproj.AssemblyReference.cache
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.AssemblyInfoInputs.cache
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.AssemblyInfo.cs
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.csproj.CoreCompileInputs.cache
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\scopedcss\bundle\AnimalApiCSharp.styles.css
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.csproj.CopyComplete
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\refint\AnimalApiCSharp.dll
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.pdb
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\AnimalApiCSharp.genruntimeconfig.cache
+C:\Users\joao.amorim\Desktop\Atividades C#\AnimalApiCSharp\obj\Debug\net6.0\ref\AnimalApiCSharp.dll

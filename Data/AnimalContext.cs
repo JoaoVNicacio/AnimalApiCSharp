@@ -10,9 +10,9 @@ namespace AnimalApiCSharp.Data
     {
     }
 
-    public DbSet<Animal> Animals { get; set;}
-    
-     protected override void OnModelCreating(ModelBuilder modelBuilder)
+    public DbSet<Animal> Animals { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
       var tableModel = modelBuilder.Entity<Animal>();
 

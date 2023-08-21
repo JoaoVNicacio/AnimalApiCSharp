@@ -19,10 +19,10 @@ builder.Services.AddDbContext<AnimalContext>(options =>
   options.UseNpgsql(builder.Configuration.GetConnectionString("Default"));
 });
 
-builder.Services.AddControllers().AddFluentValidation(config =>
-{
-  config.RegisterValidatorsFromAssembly(typeof(Program).Assembly);
-});
+// Non-deprecated way of using fluent validation:
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationClientsideAdapters();
+builder.Services.AddValidatorsFromAssembly(typeof(AnimalValidator).Assembly);
 
 builder.Services.AddScoped<IAnimalRepository, AnimalRepository>();
 

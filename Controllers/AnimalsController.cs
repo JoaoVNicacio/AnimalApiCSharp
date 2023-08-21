@@ -1,10 +1,10 @@
 using AnimalApiCSharp.Models;
 using AnimalApiCSharp.Repositories;
+using AnimalApiCSharp.Tools;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimalApiCSharp.Controllers
 {
-
   [ApiController]
   [Route("api/v1/Animals")]
   public class AnimalsController : ControllerBase
@@ -18,11 +18,14 @@ namespace AnimalApiCSharp.Controllers
 
     // GET:
     [HttpGet]
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> Get(int pageIndex, int pageSize)
     {
-      var animals = await _repository.GetAnimals();
+      var animals = await _repository.GetAnimals(pageIndex, pageSize);
 
-      return animals.Any() ? Ok(animals) : NoContent();
+      bool hasNextPage = (await _repository.GetAnimals(pageIndex + 1, pageSize)).Count() > 0;
+
+      return animals.Any() ? Ok(new PagedResults<IEnumerable<Animal>>(animals, hasNextPage))
+                           : NoContent();
     }
 
     // GET by Id:
@@ -30,9 +33,8 @@ namespace AnimalApiCSharp.Controllers
     public async Task<IActionResult> GetById(Guid id)
     {
       var animal = await _repository.GetAnimalById(id);
-      return animal != null
-                       ? Ok(animal)
-                       : NotFound("Animal not found!");
+      return animal != null ? Ok(animal)
+                            : NotFound("Animal not found!");
     }
 
     // GET by Common Name:
@@ -40,9 +42,8 @@ namespace AnimalApiCSharp.Controllers
     public async Task<IActionResult> GetByName(string commonName)
     {
       var animal = await _repository.GetAnimalByName(commonName);
-      return animal != null
-                       ? Ok(animal)
-                       : NotFound("Animal not found!");
+      return animal != null ? Ok(animal)
+                            : NotFound("Animal not found!");
     }
 
     // POST:
@@ -52,7 +53,7 @@ namespace AnimalApiCSharp.Controllers
       _repository.AddAnimal(animal);
 
       return await _repository.SaveChangesAsync()
-                                ? Ok($"{animal.CommonName} was added!")
+                                ? Created($"{animal.CommonName} was added!", animal)
                                 : BadRequest("Oops, your request body isn't in the right format.");
     }
 
@@ -110,6 +111,7 @@ namespace AnimalApiCSharp.Controllers
       return await _repository.SaveChangesAsync()
                               ? Ok($"{foundAnimal.CommonName} removed succesfully!")
                               : BadRequest("Bad Request, couldn't remove the Animal");
+
     }
 
     // DELETE by Common Name:
@@ -125,6 +127,7 @@ namespace AnimalApiCSharp.Controllers
       return await _repository.SaveChangesAsync()
                               ? Ok($"{foundAnimal.CommonName} removed succesfully!")
                               : BadRequest("Bad Request, couldn't remove the Animal");
+
     }
 
   }

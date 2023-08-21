@@ -4,7 +4,7 @@ namespace AnimalApiCSharp.Repositories
 {
   public interface IAnimalRepository
   {
-    Task<IEnumerable<Animal>> GetAnimals();
+    Task<IEnumerable<Animal>> GetAnimals(int pageIndex, int pageSize);
     Task<Animal> GetAnimalById(Guid id);
     Task<Animal> GetAnimalByName(string commonName);
     void AddAnimal(Animal animal);
