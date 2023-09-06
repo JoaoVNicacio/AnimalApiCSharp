@@ -1,30 +1,23 @@
-# Use a imagem oficial do SDK do .NET 6.0 como base para a fase de compilação
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-
-# Define o diretório de trabalho no contêiner
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-
-#Expõe porta 80
 EXPOSE 80
 
-# Copie o arquivo csproj da pasta "Src" e restaure as dependências
-COPY Src/*.csproj ./Src/
-RUN dotnet restore ./Src/AnimalApiCSharp.csproj
+ENV ASPNETCORE_URLS=http://+:80
 
-# Copie todo o código-fonte para o contêiner
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+ARG configuration=Release
+WORKDIR /src
+COPY ["Src/AnimalApiCSharp.csproj", "Src/"]
+RUN dotnet restore "Src/AnimalApiCSharp.csproj"
 COPY . .
+WORKDIR "/src/Src"
+RUN dotnet build "AnimalApiCSharp.csproj" -c $configuration -o /app/build
 
-# Compile o aplicativo
-RUN dotnet publish -c Release -o out
+FROM build AS publish
+ARG configuration=Release
+RUN dotnet publish "AnimalApiCSharp.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
 
-# Crie uma imagem final do aplicativo usando a imagem oficial do ASP.NET 6.0
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
-
-# Define o diretório de trabalho no contêiner
+FROM base AS final
 WORKDIR /app
-
-# Copie os arquivos compilados da fase de compilação para o contêiner
-COPY --from=build /app/out ./
-
-# Defina o comando de entrada para iniciar o aplicativo
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "AnimalApiCSharp.dll"]
