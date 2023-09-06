@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\AnimalApiCSharp.props" />
+  <Import Project="../build/AnimalApiCSharp.props" />
 </Project>

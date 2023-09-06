@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.amorim\\Desktop\\Atividades C#\\AnimalApiCSharp\\Src\\AnimalApiCSharp.csproj": {}
+    "/workspaces/AnimalApiCSharp/Src/AnimalApiCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.amorim\\Desktop\\Atividades C#\\AnimalApiCSharp\\Src\\AnimalApiCSharp.csproj": {
+    "/workspaces/AnimalApiCSharp/Src/AnimalApiCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.amorim\\Desktop\\Atividades C#\\AnimalApiCSharp\\Src\\AnimalApiCSharp.csproj",
+        "projectUniqueName": "/workspaces/AnimalApiCSharp/Src/AnimalApiCSharp.csproj",
         "projectName": "AnimalApiCSharp",
-        "projectPath": "C:\\Users\\joao.amorim\\Desktop\\Atividades C#\\AnimalApiCSharp\\Src\\AnimalApiCSharp.csproj",
-        "packagesPath": "C:\\Users\\joao.amorim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.amorim\\Desktop\\Atividades C#\\AnimalApiCSharp\\Src\\obj\\",
+        "projectPath": "/workspaces/AnimalApiCSharp/Src/AnimalApiCSharp.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/AnimalApiCSharp/Src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joao.amorim\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,15 +85,11 @@
               "version": "[6.0.20, 6.0.20]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
               "version": "[6.0.20, 6.0.20]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.20, 6.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[6.0.20, 6.0.20]"
             }
           ],
@@ -105,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
