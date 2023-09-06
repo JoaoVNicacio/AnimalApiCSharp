@@ -4,6 +4,9 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 # Define o diretório de trabalho no contêiner
 WORKDIR /app
 
+#Expõe porta 80
+EXPOSE 80
+
 # Copie o arquivo csproj da pasta "Src" e restaure as dependências
 COPY Src/*.csproj ./Src/
 RUN dotnet restore ./Src/AnimalApiCSharp.csproj
@@ -25,6 +28,3 @@ COPY --from=build /app/out ./
 
 # Defina o comando de entrada para iniciar o aplicativo
 ENTRYPOINT ["dotnet", "AnimalApiCSharp.dll"]
-
-#Expõe porta 80
-EXPOSE 80
