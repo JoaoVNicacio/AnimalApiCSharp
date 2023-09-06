@@ -5,8 +5,8 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
 
 # Copie o arquivo csproj da pasta "Src" e restaure as dependências
-COPY src/AnimalApiCSharp/*.csproj ./src/AnimalApiCSharp/
-RUN dotnet restore ./src/AnimalApiCSharp/AnimalApiCSharp.csproj
+COPY Src/AnimalApiCSharp/*.csproj ./Src/AnimalApiCSharp/
+RUN dotnet restore ./Src/AnimalApiCSharp/AnimalApiCSharp.csproj
 
 # Copie todo o código-fonte para o contêiner
 COPY . .
