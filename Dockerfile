@@ -1,3 +1,6 @@
+# Use a imagem oficial do SDK do .NET 6.0 como base para a fase de compilação
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
 # Define o diretório de trabalho no contêiner
 WORKDIR /app
 
